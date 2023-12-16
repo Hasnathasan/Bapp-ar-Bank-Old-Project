@@ -12,9 +12,9 @@ Debug Steps:
 
 
 const checkNum = n => {
-    for(let i = 0; i <= 20; i++){
-        const result = Math.pow(3,i);
-        if(result == n){
+    for (let i = 0; i <= 20; i++) {
+        const result = Math.pow(3, i);
+        if (result == n) {
             console.log(true)
             return
         }
